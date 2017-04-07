@@ -14,8 +14,8 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-by checking it against the working directory with 'git diff', by checking it
-against your most recent commit with 'git diff --staged'.
+  by checking it against the working directory with 'git diff', by checking it
+  against your most recent commit with 'git diff --staged'.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
@@ -35,3 +35,7 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+  Automatic merging quickly and easily merges two branches but cannot deal with
+  more complex changes, such as alterations to the same line of code in both
+  files, necessitating manual conflict resolution.
