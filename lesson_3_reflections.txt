@@ -31,4 +31,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you want to make a pull request to the original project, allowing the other contributors to look at your
+    changes seperate from the master branch and then further facilitating the ease of merging those changes should
+    they be acceptable.
